@@ -1,1 +1,1 @@
-# components-store-classs
+# components-store-class
