@@ -1,1 +1,1 @@
-# components-store-class
+# components-store-func
