@@ -1,6 +1,6 @@
 import './App.css';
-import item from './ShopItemClass.json';
-import  ShopItemClass  from './ShopItemClass';
+import item from './ShopItemFunc.json';
+import  ShopItemFunc  from './ShopItemFunc';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <div className='highlight-overlay'></div>
       </div>
       <div className="window">
-        <ShopItemClass item={item} />
+        <ShopItemFunc item={item} />
       </div>
     </div>
   )

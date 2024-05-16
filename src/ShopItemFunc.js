@@ -1,7 +1,7 @@
-import './ShopItemClass.json';
+import './ShopItemFunc.json';
 import React from 'react'
 
-function ShopItemClass({item, brand, title, description, descriptionFull, price, currency}) {
+function ShopItemFunc({item, brand, title, description, descriptionFull, price, currency}) {
   console.log ({item, brand, title, description, descriptionFull, price, currency})
   return (
     <div className="main-content">
@@ -22,4 +22,4 @@ function ShopItemClass({item, brand, title, description, descriptionFull, price,
     </div>
   );
 }
-export default ShopItemClass ;
+export default ShopItemFunc ;
